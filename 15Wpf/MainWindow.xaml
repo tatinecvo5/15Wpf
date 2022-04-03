@@ -1,0 +1,274 @@
+﻿<Window x:Class="_15Wpf.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_15Wpf"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="1450" Width="800">
+    <Grid>
+        <FlowDocumentScrollViewer Margin="5">
+            <FlowDocument>
+                                <Paragraph FontSize="24" FontWeight="Black"  TextAlignment="Center">
+                    Дрожжевая пицца с колбасой, помидорами и сыром (gолный рецепт доступен по
+                    <Hyperlink NavigateUri="https://www.russianfood.com/recipes/recipe.php?rid=149656">ссылке</Hyperlink>). 
+                </Paragraph>
+                <Paragraph TextAlignment="Center">
+                    Ингридиенты
+                </Paragraph>
+                <Table>
+                    <Table.Columns>
+                        <TableColumn/>
+                        <TableColumn/>
+                    </Table.Columns>
+                    <TableRowGroup>
+                        <TableRow>
+                            <TableCell>
+                                <List MarkerStyle="Circle">
+                                    <ListItem>
+                                        <Paragraph>
+                                            Для теста
+                                        </Paragraph>
+                                    </ListItem>
+                                </List>
+                                <List MarkerStyle="none">
+                                    <ListItem>
+                                        <Paragraph>
+                                            - мука - 150гр
+                                        </Paragraph>
+                                    </ListItem>
+                                    <ListItem>
+                                        <Paragraph>
+                                            - дрожжи сухие - 3гр
+                                        </Paragraph>
+                                    </ListItem>
+                                    <ListItem>
+                                        <Paragraph>
+                                            - вода - 80мл
+                                        </Paragraph>
+                                    </ListItem>
+                                    <ListItem>
+                                        <Paragraph>
+                                            - растительное масло - 1 ст. ложка
+                                        </Paragraph>
+                                    </ListItem>
+                                    <ListItem>
+                                        <Paragraph>
+                                            - соль - 0,25 ч. ложки
+                                        </Paragraph>
+                                    </ListItem>
+                                    <ListItem>
+                                        <Paragraph>
+                                            - сахар - 0,5 ч. ложки
+                                        </Paragraph>
+                                    </ListItem>
+                                </List>
+                            </TableCell>
+
+
+                            <TableCell>
+                                <List MarkerStyle="Circle">
+                                    <ListItem>
+                                        <Paragraph>
+                                            Для начинки
+                                        </Paragraph>
+                                    </ListItem>
+                                </List>
+                                <List MarkerStyle="none">
+                                    <ListItem>
+                                        <Paragraph>
+                                            - сыр твердый - 100гр
+                                        </Paragraph>
+                                    </ListItem>
+                                    <ListItem>
+                                        <Paragraph>
+                                            - колбаса (по вкусу) - 100гр
+                                        </Paragraph>
+                                    </ListItem>
+                                    <ListItem>
+                                        <Paragraph>
+                                            - помидор (крупный) - 1шт
+                                        </Paragraph>
+                                    </ListItem>
+                                    <ListItem>
+                                        <Paragraph>
+                                            - кетчуп - 2 ст. ложки
+                                        </Paragraph>
+                                    </ListItem>
+                                    <ListItem>
+                                        <Paragraph>
+                                            - перец красный сладкий  - 60гр
+                                        </Paragraph>
+                                    </ListItem>
+                                    <ListItem>
+                                        <Paragraph>
+                                            - масло сливочное - 25гр
+                                        </Paragraph>
+                                    </ListItem>
+                                    <ListItem>
+                                        <Paragraph>
+                                            - лук зеленый - по вкусу
+                                        </Paragraph>
+                                    </ListItem>
+                                </List>
+                            </TableCell>
+                        </TableRow>
+                    </TableRowGroup>
+                </Table>
+                <Paragraph TextAlignment="Center">
+                    Пищевая ценность блюда «Пицца с колбасой» (на 100 грамм):
+                </Paragraph>
+                <List MarkerStyle="Circle" MarkerOffset="10" TextAlignment="Left">
+                    <ListItem>
+                        <Paragraph>
+                            Калории: 242.6 ккал
+                        </Paragraph>
+                    </ListItem>
+                    <ListItem>
+                        <Paragraph>
+                            Белки: 10.7 гр
+                        </Paragraph>
+                    </ListItem>
+                    <ListItem>
+                        <Paragraph>
+                            Жиры: 14.5 гр
+                        </Paragraph>
+                    </ListItem>
+                    <ListItem>
+                        <Paragraph>
+                            Углеводы: 17.2 гр
+                        </Paragraph>
+                    </ListItem>
+                </List>
+                <Paragraph TextAlignment="Center">
+                    Процесс приготовления
+                </Paragraph>
+
+                <Table BorderBrush="Black" BorderThickness="1" Background="LightYellow">
+                    <Table.Columns>
+                        <TableColumn Width="50" Background="LightPink"/>
+                        <TableColumn Width="120"/>
+                        <TableColumn Width="300" Background="LightPink"/>
+                        <TableColumn Width="Auto"/>
+                    </Table.Columns>
+                    <TableRowGroup>
+                        <TableRow>
+                            <TableCell BorderBrush="Black">
+                                <Paragraph TextAlignment="Center" BorderBrush="Black" BorderThickness="1">
+                                    № этапа
+                                </Paragraph>
+                            </TableCell>
+                            <TableCell BorderBrush="Black">
+                                <Paragraph TextAlignment="Center">
+                                    Название этапа
+                                </Paragraph>
+                            </TableCell>
+                            <TableCell BorderBrush="Black">
+                                <Paragraph TextAlignment="Center">
+                                    Описание
+                                </Paragraph>
+                            </TableCell>
+                            <TableCell BorderBrush="Black">
+                                <Paragraph TextAlignment="Center">
+                                    Результат
+                                </Paragraph>
+                            </TableCell>
+                        </TableRow>
+                        <TableRow>
+                            <TableCell>
+                                <Paragraph TextAlignment="Center">
+                                    1
+                                </Paragraph>
+                            </TableCell>
+                            <TableCell>
+                                <Paragraph>
+                                    Подготовка ингридиентов
+                                </Paragraph>
+                            </TableCell>
+                            <TableCell>
+                                <Paragraph>
+Купите, дозируйте и помойте соответствующие ингридиенты.
+                                </Paragraph>
+                            </TableCell>
+                            <TableCell>
+                                <Paragraph>
+                                    <Image Source="D:\VisualStudio\WPF\15\15Wpf\15Wpf\Data\1.jpg"/>
+                                </Paragraph>
+                            </TableCell>
+                        </TableRow>
+                        <TableRow>
+                            <TableCell>
+                                <Paragraph TextAlignment="Center">
+                                    2
+                                </Paragraph>
+                            </TableCell>
+                            <TableCell>
+                                <Paragraph>
+                                    Приготовление теста
+                                </Paragraph>
+                            </TableCell>
+                            <TableCell>
+                                <Paragraph>
+                                    Смешайте воду, сахар, соль, дрожжи, муку, замесите тесто. Дайте тесту настоятся. Раскатайте тесто в тонкий круг.
+
+                                </Paragraph>
+                            </TableCell>
+                            <TableCell>
+                                <Paragraph>
+                                    <Image Source="D:\VisualStudio\WPF\15\15Wpf\15Wpf\Data\2.jpg"/>
+                                </Paragraph>
+                            </TableCell>
+                        </TableRow>
+                        <TableRow>
+                            <TableCell>
+                                <Paragraph TextAlignment="Center">
+                                    3
+                                </Paragraph>
+                            </TableCell>
+                            <TableCell>
+                                <Paragraph>
+                                    Приготовление начинки
+                                </Paragraph>
+                            </TableCell>
+                            <TableCell>
+                                <Paragraph>
+                                    Смажте основу для пиццы кетчупом. Нарежте и равномерно разложите колбасу, перец, помидору и сливочное масло. Натрите сыр на крупной терке и равномерно посыпьте им начинку.
+                                </Paragraph>
+                            </TableCell>
+                            <TableCell>
+                                <Paragraph>
+                                    <Image Source="D:\VisualStudio\WPF\15\15Wpf\15Wpf\Data\3.jpg"/>
+                                </Paragraph>
+                            </TableCell>
+                        </TableRow>
+                        <TableRow>
+                            <TableCell>
+                                <Paragraph TextAlignment="Center">
+                                    4
+                                </Paragraph>
+                            </TableCell>
+                            <TableCell>
+                                <Paragraph>
+                                    Запекание
+                                </Paragraph>
+                            </TableCell>
+                            <TableCell>
+                                <Paragraph>
+                                    Выпекайте пиццу в предварительно разогретой до 200 градусов духовке около 15 минут (режим “Пицца” или нагрев снизу + вентиляционный нагрев)
+                                </Paragraph>
+                            </TableCell>
+                            <TableCell>
+                                <Paragraph>
+                                    <Image Source="D:\VisualStudio\WPF\15\15Wpf\15Wpf\Data\4.jpg"/>
+                                </Paragraph>
+                            </TableCell>
+                        </TableRow>
+                    </TableRowGroup>
+                </Table>
+                <Paragraph FontSize="30" FontWeight="Black" TextAlignment="Center" Background="LightYellow">
+                    Приятного аппетита!
+                </Paragraph>
+            </FlowDocument>
+        </FlowDocumentScrollViewer>
+    </Grid>
+</Window>
